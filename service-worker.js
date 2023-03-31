@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AceLogic/precache-manifest.a543913bae1bea7b39a98e2374716fb5.js"
+  "/AceLogic/precache-manifest.d2a41aa5f7f0cc638b07260bbc25d766.js"
 );
 
 workbox.clientsClaim();

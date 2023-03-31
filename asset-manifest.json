@@ -1,7 +1,7 @@
 {
   "main.css": "/AceLogic/static/css/main.f8155ce5.chunk.css",
-  "main.js": "/AceLogic/static/js/main.d9b7905b.chunk.js",
-  "main.js.map": "/AceLogic/static/js/main.d9b7905b.chunk.js.map",
+  "main.js": "/AceLogic/static/js/main.58e807ae.chunk.js",
+  "main.js.map": "/AceLogic/static/js/main.58e807ae.chunk.js.map",
   "static/js/1.5df5c539.chunk.js": "/AceLogic/static/js/1.5df5c539.chunk.js",
   "static/js/1.5df5c539.chunk.js.map": "/AceLogic/static/js/1.5df5c539.chunk.js.map",
   "static/js/2.2ad83146.chunk.js": "/AceLogic/static/js/2.2ad83146.chunk.js",
@@ -33,6 +33,6 @@
   "static/media/career_coach.png": "/AceLogic/static/media/career_coach.4909d08e.png",
   "static/css/main.f8155ce5.chunk.css.map": "/AceLogic/static/css/main.f8155ce5.chunk.css.map",
   "index.html": "/AceLogic/index.html",
-  "precache-manifest.a543913bae1bea7b39a98e2374716fb5.js": "/AceLogic/precache-manifest.a543913bae1bea7b39a98e2374716fb5.js",
+  "precache-manifest.d2a41aa5f7f0cc638b07260bbc25d766.js": "/AceLogic/precache-manifest.d2a41aa5f7f0cc638b07260bbc25d766.js",
   "service-worker.js": "/AceLogic/service-worker.js"
 }
