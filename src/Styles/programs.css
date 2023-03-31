@@ -1,0 +1,43 @@
+.programs {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 10vh;
+}
+.programs #heading_container {
+  background: linear-gradient(0deg, rgb(95, 182, 237) 0%, rgb(246, 246, 246) 100%);
+  text-align: center;
+  height: 12vh;
+}
+.programs #heading_container h1 {
+  padding-top: 3.5vh;
+  font-size: 28px;
+  color: black;
+}
+.programs #Line1 {
+  width: 100vw;
+  text-align: center;
+  color: black;
+}
+.programs .home-page-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+}
+
+@media (max-width: 450px) {
+  .programs {
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .programs #heading_container {
+    height: 8vh;
+  }
+  .programs .home-page-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}/*# sourceMappingURL=programs.css.map */

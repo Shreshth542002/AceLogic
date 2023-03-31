@@ -1,0 +1,39 @@
+.Home .nav-container {
+  height: 40vh;
+  background: #5fb6ed;
+  background: linear-gradient(16deg, rgb(95, 182, 237) 22%, rgb(255, 255, 255) 100%);
+}
+.Home #any {
+  text-decoration: none;
+}
+.Home #any #get-started-btn {
+  display: block;
+  color: white;
+  width: 25%;
+  background-color: #5fb6ed;
+  border: none;
+  height: 4vh;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin: 2% auto;
+}
+.Home #any #get-started-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .Home .nav-container {
+    height: 30vh;
+  }
+  .Home #any #get-started-btn {
+    color: white;
+    width: 80vw;
+    background-color: #5fb6ed;
+    border: none;
+    margin: 3vh auto;
+    height: 5vh;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Lato:ital,wght@1,900&family=Montserrat:wght@100;400;500;800&family=Noto+Sans:wght@700&family=Nunito:wght@900;400&family=PT+Sans:wght@700&family=Poppins:wght@300;500&family=Roboto:wght@300;400&family=Sono:wght@300&family=Ubuntu:wght@500&display=swap');
+
+.pap-intro-container{
+    margin-top: 10vh;
+    #pap--heading{
+        font-family: 'Nunito', sans-serif;
+        font-size: 56px;
+        font-weight: 900;
+        text-align: center;
+        color: black;
+    }
+    #pap--text{
+        margin: 0 auto;
+        width: 80%;
+        font-family: 'Nunito', sans-serif;
+        font-size: 26px;
+        color: black;
+        text-align: center;
+        font-weight: 400;
+        line-height: 35px;
+    }
+}
+.about--pap--agreement {
+    margin: 0 auto;
+    margin-top: 10vh;
+    background-color: #f6f6f6;
+    width: 98%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    #pap-agreement-heading{
+        color: black;
+        width: 60%;
+        font-size: 34px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+        text-align: center;
+    }
+    #separator{
+        margin-top: 1%;
+        border-left: 2px solid rgb(71, 71, 71);
+        height: 80%;
+        opacity: 0.3;
+    }
+    #pap-agreement-text{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        margin: auto 0;
+        text-align: center;
+        font-size: 20px;
+        padding: 1%;
+    }
+}
+
+.student--investment{
+    margin-top: 5vh;
+    height: 40vh;
+    background: radial-gradient(circle, rgba(221, 213, 213, 1) 0%, rgba(95, 182, 237, 1) 100%);
+
+    #student--investment--heading{
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        padding: 1rem;
+        font-size: 32px;
+        color: #1f1e1e;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        word-spacing: 3px;
+        letter-spacing: -1px;
+    }
+    #student--investment--text{
+        margin: 0 auto;
+        width: 62%;
+        text-align: center;
+        color: #2a2929;
+        font-size: 22px;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 500;
+    }
+}
+
+.fees-structure{
+    margin: 10vh auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    h2{
+        color: black;
+        text-align: center;
+        word-spacing: 5px;
+        text-transform: capitalize;
+    }
+
+    h1{
+        margin-left: 12%;
+        color: black;
+        word-spacing: 5px;
+        text-transform: capitalize;
+        font-size: 32px;
+    }
+
+    table{
+        width: 80%;
+        margin: 2vh auto;
+        border-collapse: collapse;
+        
+
+        tr,td{
+            font-size: 20px;
+            text-align: left;
+            padding: 16px;
+            border: 1px solid #dddddd;
+
+            th{
+                padding-left: 1vw;
+                font-size: 24px;
+                color: white;
+                background-color: black;
+                height: 10vh;
+            }
+        }
+    }
+}
+.Drop-Out{
+    margin-left: 2rem;
+    margin-bottom: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    h2 {
+        color: black;
+        text-align: center;
+        word-spacing: 5px;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: 20px;
+    }
+    #unit{
+        margin-left: 6%;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        #unit-1,#unit-2,#unit-3{
+            border-radius: 10px;
+            width: 30%;
+            height: 30vh;
+            background-color: #fda500;
+
+            h1{
+                margin: 0;
+                text-align: center;
+                color: white;
+            }
+            h2{
+                margin: 0;
+                padding-top: 2%;
+                height: 65%;
+                color: white;
+                background-color: #5fb6ed;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:450px){
+    .pap-intro-container{
+        #pap--heading{
+            font-size: 22px;
+        }
+        #pap--text{
+            font-size: 18px;
+        }
+    }
+    .about--pap--agreement {
+        width: 100%;
+        margin: 0 auto;
+        height: 60vh;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+
+        #pap-agreement-heading{
+            margin: 0 auto;
+            width: 80%;
+            font-size: 30px;
+            text-align: center;
+        }
+        #separator{
+            display: none;
+        }
+        #pap-agreement-text{
+            font-size: 18px;
+        }
+    }
+    .student--investment{
+        height: max-content;
+        margin-bottom: 1vh;
+        padding-bottom: 1vh;
+        #student--investment--heading{
+            width: 80%;
+            font-size: 21px;
+        }
+        #student--investment--text{
+            width: 90%;
+            font-size: 20px;
+        }
+    }
+}

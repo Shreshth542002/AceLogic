@@ -1,0 +1,111 @@
+.signUp--container{
+    .signUp--form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1%;
+        input{
+            border-radius: 8px;
+            width: 80%;
+            height: 5vh;
+            margin: 2%;
+            font-size: 18px;
+            border: 1px solid #9c9494;
+            padding-left: 1%;
+
+            &::placeholder{
+                font-family: 'Roboto',FontAwesome,sans-serif;
+            }
+
+            &:hover{
+                box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+                cursor: text;
+            }
+        }
+        .signUp--btn{
+            background-color: #5fb6ed;
+            color: white;
+            border: none;
+            font-size: 20px;
+            margin-top: 2%;
+            width: 80%;
+            height: 5vh;
+            border-radius: 5px;
+
+            &:hover{
+                box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+                cursor: pointer;
+            }
+        }
+    }
+    p{
+        text-align: center;
+        &:hover{
+            cursor: pointer;
+            color: green;
+        }
+    }
+}
+
+.login--container{
+    .Login--form{
+        @extend .signUp--container,.signUp--form;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2%;
+
+        input {
+            border-radius: 8px;
+            width: 80%;
+            height: 5vh;
+            margin: 2%;
+            font-size: 18px;
+            border: 1px solid #9c9494;
+            padding-left: 1%;
+            
+            &::placeholder {
+                font-family: 'Roboto', FontAwesome, sans-serif;
+            }
+            
+            &:hover {
+                box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+                cursor: text;
+            }
+        }
+
+        .Login--btn {
+            background-color: #5fb6ed;
+            color: white;
+            border: none;
+            font-size: 20px;
+            margin-top: 2%;
+            width: 80%;
+            height: 5vh;
+            border-radius: 5px;
+        
+            &:hover {
+                box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:450px){
+    .signUp--container{
+        .signUp--form{
+            input{
+                width: 90%;
+            }
+        }
+    }
+
+    .login--container{
+        .Login--form{
+            input{
+                width: 90%;
+            }
+        }
+    }
+}

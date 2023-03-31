@@ -1,0 +1,129 @@
+@import '../Variables/Variables';
+
+// Dashboard CSS
+
+#dashboardcontainer {
+    // height: 10vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .logoName {
+        position: relative;
+        left: 3vw;
+        width: 10vw;
+
+        a{
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+            .logo {
+                width: 1.6rem;
+                height: 1.6rem;
+            }
+        
+            .Name {
+                position: relative;
+                font-size: 28px;
+            }
+        }
+        
+        #bruh {
+            display: none;
+        }
+
+    }
+    
+    #no-id{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        #login{
+            color: white;
+            width: 8vw;
+            background-color: #5fb6ed;
+            border: none;
+            height: 4.5vh;
+            border-radius: 5px;
+            letter-spacing: 1px;
+            font-size: 20px;
+            font-weight: 500;
+            margin-right: 1vw;
+            
+            &:hover {
+                cursor: pointer;
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+        }
+        .nav-items {
+            // border: $border;
+            display: flex;
+            list-style: none;
+            text-align: center;
+            // width: 70vw;
+            justify-content: flex-end;
+            margin-right: 1rem;
+            
+            .nav-item {
+                display: flex;
+                align-items: center;
+                height: 5vh;
+                // height: 10vh;
+        
+                #link1 {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 20px;
+                    margin-right: 0.7rem;
+                    border-radius: 5px;
+                }
+            }
+        }
+        
+    }
+    
+}
+
+@media (min-width:360px) and (max-width:415px){
+    #dashboardcontainer {
+        z-index: 1000;
+        color: white;
+    
+        #no-id{
+            .nav-items {
+                display: none;
+            }
+            #login{
+                width: 16vw;
+            }
+        }
+    
+        .logoName {
+            display: flex;
+            a{
+                .Name{
+                    display: none;
+                }
+            }
+
+            #bruh {
+                padding: 10px;
+                color: black;
+                display: block;
+                font-size: 20px;
+            
+                &:hover {
+                    color: white;
+                }
+            
+            }
+        }
+    }
+}
+
+    
+
+// Dashboard CSS Ends

@@ -1,0 +1,118 @@
+.aboutUs--navContainer {
+  background: url("../images/stars.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.aboutUs--navContainer .about_us_content {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.aboutUs--navContainer .about_us_content * {
+  margin: 0;
+}
+
+.vision, .mission, .values {
+  height: 42vh;
+  margin: 2vh auto;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.vision .vision_img, .mission .vision_img, .mission .mission_img, .values .vision_img, .values .values_img {
+  border-radius: 25px;
+  width: 40%;
+  padding: 0.5rem;
+}
+.vision .vision_text, .mission .vision_text, .values .vision_text {
+  width: 61%;
+}
+.vision .vision_text .vision_heading, .mission .vision_text .vision_heading, .values .vision_text .vision_heading {
+  margin-right: 2vw;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  text-align: end;
+  color: black;
+}
+.vision .vision_text .our_vision, .mission .vision_text .our_vision, .values .vision_text .our_vision {
+  font-size: 20px;
+  font-family: 300;
+  color: black;
+}
+
+.values {
+  margin-bottom: 5vh;
+}
+.values_text .values_heading {
+  text-align: left;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+}
+.values_text .our_values {
+  color: black;
+  font-size: 20px;
+}
+
+.mission {
+  background-color: #f3eeee;
+}
+.mission .mission_text .mission_heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  color: black;
+}
+.mission .mission_text .our_mission {
+  color: black;
+  font-size: 20px;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .about_us_content {
+    height: 35vh;
+    font-size: 24px;
+  }
+  .vision, .values, .mission {
+    height: -moz-max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .vision .vision_img, .values .vision_img, .mission .vision_img, .values .values_img, .mission .mission_img {
+    padding: 0;
+    width: 100%;
+    height: 30vh;
+  }
+  .vision .vision_text, .values .vision_text, .mission .vision_text {
+    margin: 0;
+    width: 100%;
+  }
+  .vision .vision_text .vision_heading, .values .vision_text .vision_heading, .mission .vision_text .vision_heading {
+    text-align: left;
+  }
+  .vision .vision_text .our_vision, .values .vision_text .our_vision, .mission .vision_text .our_vision {
+    text-align: left;
+    font-size: 16px;
+  }
+  .mission {
+    flex-direction: column-reverse;
+  }
+  .mission .mission_text .our_mission {
+    text-align: left;
+    font-size: 16px;
+  }
+  .values .values_text .our_values {
+    text-align: left;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=AboutPage.css.map */

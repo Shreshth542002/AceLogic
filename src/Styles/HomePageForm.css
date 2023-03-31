@@ -1,0 +1,115 @@
+.home-form {
+  width: 95%;
+  position: relative;
+  top: 3vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f0f0;
+}
+.home-form .left-side-text {
+  width: 35%;
+  font-family: "Lato", sans-serif;
+}
+.home-form .left-side-text h1 {
+  font-weight: 700;
+  color: black;
+  font-size: 32px;
+}
+.home-form .left-side-text p {
+  font-size: 22px;
+}
+.home-form #form--separator {
+  height: 70%;
+  border-left: 2px solid #605f5f;
+}
+.home-form .right-side-form {
+  width: 50%;
+  height: 90%;
+  background-color: rgb(205, 205, 205);
+  margin-left: 3vw;
+  border-radius: 20px;
+}
+.home-form .right-side-form h2 {
+  color: #2a2525;
+  height: 8vh;
+  padding-top: 3vh;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+.home-form .right-side-form .form-input {
+  outline: none;
+  margin-left: 12%;
+  margin-top: 4%;
+  width: 75%;
+  height: 5vh;
+  border-radius: 6px;
+  border: none;
+  color: grey;
+  font-size: 16px;
+  padding-left: 0.8vw;
+}
+.home-form .right-side-form .form-input:hover {
+  outline: none;
+}
+.home-form .right-side-form .form-select {
+  margin-left: 12%;
+  height: 5vh;
+  color: grey;
+  font-size: 16px;
+  padding-left: 0.8vw;
+  border-radius: 6px;
+  margin-top: 4%;
+  width: 77%;
+}
+.home-form .right-side-form .form-select:hover {
+  outline: none;
+}
+.home-form .right-side-form .form-button {
+  margin-left: 12%;
+  height: 1.5rem;
+  padding: 2px;
+  background-color: #5fb6ed;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 77%;
+  margin-top: 3%;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .home-form {
+    width: 100%;
+    flex-direction: column;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .home-form .left-side-text {
+    width: 100%;
+    text-align: center;
+  }
+  .home-form .left-side-text h1 {
+    margin: 0;
+  }
+  .home-form .right-side-form {
+    width: 95%;
+    margin: 0;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+  }
+  .home-form .right-side-form h2 {
+    font-size: 26px;
+  }
+  .home-form .right-side-form .form-input {
+    margin-top: 2%;
+  }
+}/*# sourceMappingURL=HomePageForm.css.map */

@@ -1,0 +1,150 @@
+.aboutUs--navContainer{
+    background: url('../images/stars.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    .about_us_content
+    {
+        font-family: 'PT Sans',sans-serif;
+        font-weight: 800;
+        height: 40vh;
+        // margin-top: 1vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+        *{
+            margin: 0;
+        }
+    }
+}
+
+// @media (max-width:450px){
+//     .about_us_content{
+//         // width: calc(414px);
+//     }
+// }
+
+.vision{
+    height: 42vh;
+    margin: 2vh auto;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins',sans-serif;
+
+    .vision_img{
+        border-radius: 25px;
+        width: 40%;
+        padding: 0.5rem;
+    }
+
+    .vision_text{
+        width: 61%;
+        .vision_heading{
+            margin-right: 2vw;
+            font-family: 'Oswald',sans-serif;
+            font-weight: 800;
+            text-align: end;
+            color: black;
+        }
+        .our_vision {
+            font-size: 20px;
+            font-family: 300;
+            color: black;
+        }
+    }
+}
+
+.values {
+    margin-bottom: 5vh;
+    @extend .vision;
+        .values_img {
+            @extend .vision_img;
+        }
+    }
+
+    .values_text {
+        .values_heading {
+            text-align: left;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 800;
+        }
+
+        .our_values {
+            color: black;
+            font-size: 20px;
+        }
+    }
+
+.mission{
+    @extend .vision;
+    background-color: #f3eeee;
+    .mission_img{
+        @extend .vision_img;
+    }
+
+    .mission_text{
+        .mission_heading {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 800;
+            color: black;
+        }
+        .our_mission{
+            color: black;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:450px){
+    .about_us_content{
+        height: 35vh;
+        font-size: 24px;
+    }
+    .vision{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        .vision_img{
+            padding: 0;
+            width: 100%;
+            height: 30vh;
+        }
+        .vision_text {
+            margin: 0;
+            width: 100%;
+            .vision_heading{
+                text-align: left;
+            }
+            .our_vision{
+                text-align: left;
+                font-size: 16px;
+            }
+        }
+    }
+    .mission{
+        flex-direction: column-reverse;
+        .mission_text{
+            .our_mission{
+                text-align: left;
+                font-size: 16px;
+            }
+        }
+    }
+    .values{
+        .values_text{
+            .our_values{
+                text-align: left;
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,421 @@
+#perfection--heading, #hiring--heading {
+  margin-bottom: 10vh;
+}
+
+.hiring_navcontainer {
+  background: linear-gradient(16deg, rgb(95, 182, 237) 22%, rgb(255, 255, 255) 100%);
+}
+.hiring_navcontainer .Hiring__container {
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 0;
+}
+.hiring_navcontainer .Hiring__container .please {
+  height: 40vh;
+  width: 25%;
+  border-radius: 50%;
+  margin-top: 4%;
+}
+.hiring_navcontainer .Hiring__container .right-side-text {
+  width: 40vw;
+  height: 80%;
+  text-align: right;
+}
+.hiring_navcontainer .Hiring__container .right-side-text section {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.hiring_navcontainer .Hiring__container .right-side-text section h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+.hiring_navcontainer .Hiring__container .right-side-text section h1 #sector {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.hiring_navcontainer .Hiring__container .right-side-text section img {
+  width: 5vw;
+  height: 5vh;
+}
+.hiring_navcontainer .Hiring__container .right-side-text h2 {
+  margin: 0;
+  color: #086198;
+  font-size: 70px;
+}
+.hiring_navcontainer .Hiring__container .right-side-text h3 {
+  margin: 0;
+  color: #fda500;
+  font-size: 40px;
+  margin-bottom: 8%;
+}
+.hiring_navcontainer .Hiring__container .right-side-text p {
+  text-align: right;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.hiring_navcontainer .Hiring__container .right-side-text button {
+  color: white;
+  width: 15vh;
+  background: #fda500;
+  border: none;
+  height: 6vh;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.hiring_navcontainer .Hiring__container .right-side-text button a {
+  text-decoration: none;
+}
+
+.Hiring--reasons--container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 159, 158, 0.05);
+  height: 90vh;
+  margin-bottom: 10vh;
+}
+.Hiring--reasons--container .Pathway {
+  width: 45%;
+}
+.Hiring--reasons--container .Pathway h2 {
+  font-family: "Lato", sans-serif;
+  margin-left: 3vw;
+}
+.Hiring--reasons--container .Pathway ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.Hiring--reasons--container .Pathway ul li {
+  color: black;
+  font-size: 28px;
+  margin: 1.2rem;
+}
+.Hiring--reasons--container .Pathway ul li #bullet--points {
+  margin-right: 1.5vw;
+}
+.Hiring--reasons--container .Hiring__Form {
+  margin-top: 2vh;
+  border-radius: 0.5rem;
+  width: 40vw;
+  height: 85vh;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 11px -2px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background-color: white;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us {
+  display: block;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us h2 {
+  margin: 1vw 10%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8vw;
+  letter-spacing: 0.5px;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container {
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container p {
+  padding-left: 3.2vw;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  word-spacing: 1.2px;
+  margin-bottom: 0;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container p span {
+  color: red;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container #hiring-input {
+  margin: 0 auto;
+  height: 5.5vh;
+  border: 0.5px solid rgb(207, 205, 205);
+  border-radius: 10px;
+  width: 85%;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container #hiring-input:hover {
+  border: 1.5px solid #086198;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us #Hiring--btn {
+  margin: 2vh 7.5%;
+  color: white;
+  width: 85%;
+  background: #fda500;
+  border: none;
+  height: 5vh;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.Hiring--reasons--container .Hiring__Form .Hire--from--us #Hiring--btn:hover {
+  box-shadow: 0 1px 16px 0 #fda500;
+  cursor: pointer;
+}
+
+.Why-AceLogic {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Why-AceLogic .Data--Science, .Why-AceLogic .Web--Development {
+  width: 50%;
+  height: 70%;
+  border: 0.5px solid #cfcdcd;
+  border-radius: 12px;
+  margin: 0.5rem;
+  background-color: #edecec;
+}
+.Why-AceLogic .Data--Science h2, .Why-AceLogic .Web--Development h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  word-spacing: 8px;
+}
+.Why-AceLogic .Data--Science #sec1, .Why-AceLogic .Web--Development #sec1 {
+  padding: 0 !important;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 50% 50%;
+  list-style-type: none;
+}
+.Why-AceLogic .Data--Science #sec1 li, .Why-AceLogic .Web--Development #sec1 li {
+  margin: 10px auto;
+  width: 86%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+}
+.Why-AceLogic .Data--Science #sec1 li i, .Why-AceLogic .Web--Development #sec1 li i {
+  width: 13%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.Why-AceLogic .Data--Science #sec1 li .xyz, .Why-AceLogic .Web--Development #sec1 li .xyz {
+  margin: auto 0;
+}
+.Why-AceLogic .Data--Science #sec1 li .xyz p, .Why-AceLogic .Web--Development #sec1 li .xyz p {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 20px;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 1vh;
+}
+
+.Hiring-facts {
+  margin-bottom: 15vh;
+  margin: 8vh auto;
+  width: 80%;
+  height: 40vh;
+  background-color: #edecec;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+}
+.Hiring-facts .box {
+  margin: auto 0.5vw;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  width: 17%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Hiring-facts .box i {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Hiring-facts .box p {
+  color: #000;
+  font-size: 26px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.Hiring-facts .box p span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#bulb {
+  margin-left: 5px;
+}
+
+#perfection--heading, #hiring--heading {
+  margin-top: 10vh;
+  margin-bottom: 0vh;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+#hiring--heading {
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  #perfection--heading, #hiring--heading {
+    font-size: 22px;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+  }
+  .Hiring__container {
+    flex-direction: column-reverse;
+    padding: 3%;
+  }
+  .Hiring__container .please {
+    height: 50%;
+    width: 90%;
+  }
+  .Hiring__container .right-side-text {
+    width: 100%;
+    text-align: left;
+  }
+  .Hiring__container .right-side-text h2 {
+    margin: 1%;
+    font-size: 34px;
+  }
+  .Hiring__container .right-side-text h3 {
+    font-size: 24px;
+  }
+  .Hiring__container .right-side-text p {
+    margin: 1%;
+    text-align: left;
+    font-size: 15px;
+  }
+  .Hiring__container .right-side-text button {
+    width: 60%;
+  }
+  .Why-AceLogic {
+    height: -moz-max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .Why-AceLogic .Data--Science, .Why-AceLogic .Web--Development {
+    width: 98%;
+    margin: 1vh auto;
+  }
+  .Why-AceLogic .Data--Science h2, .Why-AceLogic .Web--Development h2 {
+    margin: 1vh auto;
+    font-size: 32px;
+  }
+  .Why-AceLogic .Data--Science #sec1, .Why-AceLogic .Web--Development #sec1 {
+    padding-left: 4px !important;
+    -moz-column-gap: 2px;
+         column-gap: 2px;
+  }
+  .Why-AceLogic .Data--Science #sec1 li, .Why-AceLogic .Web--Development #sec1 li {
+    height: 80%;
+    width: 100%;
+  }
+  .Why-AceLogic .Data--Science #sec1 li i, .Why-AceLogic .Web--Development #sec1 li i {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .Why-AceLogic .Data--Science #sec1 li .xyz, .Why-AceLogic .Web--Development #sec1 li .xyz {
+    margin-left: 2px;
+  }
+  .Why-AceLogic .Data--Science #sec1 li .xyz p, .Why-AceLogic .Web--Development #sec1 li .xyz p {
+    margin: 0.1rem;
+    font-size: 14px;
+  }
+  .Hiring-facts {
+    margin: 0 auto;
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Hiring-facts .box {
+    width: 45%;
+    height: 32%;
+    margin-right: 1%;
+  }
+  .Hiring-facts .box i {
+    font-size: 32px;
+  }
+  .Hiring-facts .box p {
+    font-size: 24px;
+  }
+  .Hiring--reasons--container {
+    display: flex;
+    flex-direction: column;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .Hiring--reasons--container .Pathway {
+    width: 98%;
+  }
+  .Hiring--reasons--container .Pathway h2 {
+    font-size: 36px;
+  }
+  .Hiring--reasons--container .Pathway ul {
+    padding: 0;
+  }
+  .Hiring--reasons--container .Pathway ul li {
+    font-size: 24px;
+  }
+  .Hiring--reasons--container .Pathway ul li #bullet--points {
+    font-size: 18px;
+  }
+  .Hiring--reasons--container .Hiring__Form {
+    width: 98%;
+    margin: 1vh auto;
+  }
+  .Hiring--reasons--container .Hiring__Form .Hire--from--us {
+    width: 100%;
+  }
+  .Hiring--reasons--container .Hiring__Form .Hire--from--us #become-partner {
+    margin: 2vh 3%;
+    font-size: 20px;
+  }
+  .Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container {
+    width: 100%;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container p {
+    margin-left: 2.5vw;
+    font-size: 18px;
+  }
+  .Hiring--reasons--container .Hiring__Form .Hire--from--us .input--container #hiring-input {
+    width: 90%;
+  }
+  .Hiring--reasons--container .Hiring__Form .Hire--from--us #Hiring--btn {
+    margin: 5vh 5%;
+    width: 90%;
+  }
+}/*# sourceMappingURL=Hiring.css.map */

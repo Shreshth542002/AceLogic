@@ -1,0 +1,97 @@
+#dashboardcontainer {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#dashboardcontainer .logoName {
+  position: relative;
+  left: 3vw;
+  width: 10vw;
+}
+#dashboardcontainer .logoName a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+#dashboardcontainer .logoName a .logo {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+#dashboardcontainer .logoName a .Name {
+  position: relative;
+  font-size: 28px;
+}
+#dashboardcontainer .logoName #bruh {
+  display: none;
+}
+#dashboardcontainer #no-id {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#dashboardcontainer #no-id #login {
+  color: white;
+  width: 8vw;
+  background-color: #5fb6ed;
+  border: none;
+  height: 4.5vh;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 1vw;
+}
+#dashboardcontainer #no-id #login:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+#dashboardcontainer #no-id .nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+#dashboardcontainer #no-id .nav-items .nav-item {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+}
+#dashboardcontainer #no-id .nav-items .nav-item #link1 {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  margin-right: 0.7rem;
+  border-radius: 5px;
+}
+
+@media (min-width: 360px) and (max-width: 415px) {
+  #dashboardcontainer {
+    z-index: 1000;
+    color: white;
+  }
+  #dashboardcontainer #no-id .nav-items {
+    display: none;
+  }
+  #dashboardcontainer #no-id #login {
+    width: 16vw;
+  }
+  #dashboardcontainer .logoName {
+    display: flex;
+  }
+  #dashboardcontainer .logoName a .Name {
+    display: none;
+  }
+  #dashboardcontainer .logoName #bruh {
+    padding: 10px;
+    color: black;
+    display: block;
+    font-size: 20px;
+  }
+  #dashboardcontainer .logoName #bruh:hover {
+    color: white;
+  }
+}/*# sourceMappingURL=Dashboard.css.map */

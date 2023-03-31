@@ -1,0 +1,95 @@
+.signUp--container .signUp--form, .signUp--container .login--container .Login--form, .login--container .signUp--container .Login--form, .login--container .Login--form .signUp--form, .login--container .Login--form .Login--form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+.signUp--container .signUp--form input, .signUp--container .login--container .Login--form input, .login--container .signUp--container .Login--form input, .login--container .Login--form .signUp--form input, .login--container .Login--form .Login--form input {
+  border-radius: 8px;
+  width: 80%;
+  height: 5vh;
+  margin: 2%;
+  font-size: 18px;
+  border: 1px solid #9c9494;
+  padding-left: 1%;
+}
+.signUp--container .signUp--form input::-moz-placeholder, .signUp--container .login--container .Login--form input::-moz-placeholder, .login--container .signUp--container .Login--form input::-moz-placeholder, .login--container .Login--form .signUp--form input::-moz-placeholder, .login--container .Login--form .Login--form input::-moz-placeholder {
+  font-family: "Roboto", FontAwesome, sans-serif;
+}
+.signUp--container .signUp--form input::placeholder, .signUp--container .login--container .Login--form input::placeholder, .login--container .signUp--container .Login--form input::placeholder, .login--container .Login--form .signUp--form input::placeholder, .login--container .Login--form .Login--form input::placeholder {
+  font-family: "Roboto", FontAwesome, sans-serif;
+}
+.signUp--container .signUp--form input:hover, .signUp--container .login--container .Login--form input:hover, .login--container .signUp--container .Login--form input:hover, .login--container .Login--form .signUp--form input:hover, .login--container .Login--form .Login--form input:hover {
+  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: text;
+}
+.signUp--container .signUp--form .signUp--btn, .signUp--container .login--container .Login--form .signUp--btn, .login--container .signUp--container .Login--form .signUp--btn, .login--container .Login--form .signUp--form .signUp--btn, .login--container .Login--form .Login--form .signUp--btn {
+  background-color: #5fb6ed;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 2%;
+  width: 80%;
+  height: 5vh;
+  border-radius: 5px;
+}
+.signUp--container .signUp--form .signUp--btn:hover, .signUp--container .login--container .Login--form .signUp--btn:hover, .login--container .signUp--container .Login--form .signUp--btn:hover, .login--container .Login--form .signUp--form .signUp--btn:hover, .login--container .Login--form .Login--form .signUp--btn:hover {
+  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.signUp--container p, .login--container .Login--form p {
+  text-align: center;
+}
+.signUp--container p:hover, .login--container .Login--form p:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.login--container .Login--form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.login--container .Login--form input {
+  border-radius: 8px;
+  width: 80%;
+  height: 5vh;
+  margin: 2%;
+  font-size: 18px;
+  border: 1px solid #9c9494;
+  padding-left: 1%;
+}
+.login--container .Login--form input::-moz-placeholder {
+  font-family: "Roboto", FontAwesome, sans-serif;
+}
+.login--container .Login--form input::placeholder {
+  font-family: "Roboto", FontAwesome, sans-serif;
+}
+.login--container .Login--form input:hover {
+  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: text;
+}
+.login--container .Login--form .Login--btn {
+  background-color: #5fb6ed;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 2%;
+  width: 80%;
+  height: 5vh;
+  border-radius: 5px;
+}
+.login--container .Login--form .Login--btn:hover {
+  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .signUp--container .signUp--form input, .login--container .Login--form .signUp--form input, .signUp--container .login--container .Login--form input, .login--container .signUp--container .Login--form input, .login--container .Login--form .Login--form input {
+    width: 90%;
+  }
+  .login--container .Login--form input {
+    width: 90%;
+  }
+}/*# sourceMappingURL=SignUpPage.css.map */

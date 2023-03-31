@@ -1,0 +1,147 @@
+.data_science_navcontainer {
+  background: linear-gradient(16deg, #5fb6ed 22%, rgb(255, 255, 255) 100%);
+  height: 48vh;
+}
+.data_science_navcontainer .kinda_moto {
+  margin-left: 5%;
+  width: 35vw;
+}
+.data_science_navcontainer .kinda_moto h1 {
+  margin: 0;
+  color: #13131A;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  word-spacing: 8px;
+}
+.data_science_navcontainer .kinda_moto p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.data_science_navcontainer .kinda_moto #apply_btn {
+  text-align: center;
+  width: 100%;
+  padding: 0.3rem;
+  border-radius: 8px;
+  background-color: #fda500;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.data_science_navcontainer .kinda_moto #apply_btn:hover {
+  cursor: pointer;
+  box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#job_guarentee {
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#job_guarentee #working_girl {
+  height: 40vh;
+  width: 45%;
+}
+#job_guarentee #job_text h1 {
+  width: 80%;
+  font-family: "Noto Sans", sans-serif;
+  color: #13131A;
+  font-size: 36px;
+  font-weight: 700;
+  word-spacing: 5px;
+}
+#job_guarentee #job_text p {
+  font-size: "Inter", san-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+}
+
+#headingcontainer {
+  background: linear-gradient(0deg, rgb(95, 182, 237) 0%, rgb(246, 246, 246) 100%);
+  text-align: center;
+  height: 12vh;
+  margin-bottom: 2vh;
+}
+#headingcontainer h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: black;
+  margin: 0;
+}
+
+#Roadmap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  height: 40vh;
+  margin-bottom: 4vh;
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+  row-gap: 4%;
+  margin: 3%;
+}
+
+.Faq {
+  width: 70%;
+  margin: 10vh auto;
+}
+.Faq h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .data_science_navcontainer {
+    height: 60vh;
+  }
+  .data_science_navcontainer .kinda_moto {
+    width: 50%;
+  }
+  .data_science_navcontainer .kinda_moto h1 {
+    font-size: 30px;
+  }
+  .data_science_navcontainer .kinda_moto p {
+    font-size: 19px;
+  }
+  #job_guarentee {
+    margin: 0 5%;
+  }
+  #job_guarentee #job_text h1 {
+    font-size: 30px;
+  }
+  #job_guarentee #job_text p {
+    font-size: 20px;
+  }
+  #headingcontainer {
+    height: 10vh;
+  }
+  #headingcontainer h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+  #Roadmap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 0.3rem;
+         column-gap: 0.3rem;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 4vh;
+  }
+}
+.Faq {
+  width: 90%;
+}/*# sourceMappingURL=Data_Science.css.map */

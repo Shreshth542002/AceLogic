@@ -1,0 +1,57 @@
+.carousalcontainernext {
+  padding: 5%;
+  margin-bottom: 2%;
+  background-color: #dcdcdc;
+}
+.carousalcontainernext .no2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+}
+.carousalcontainernext .no2 .carousal--content {
+  padding: 2%;
+  display: flex;
+}
+.carousalcontainernext .no2 .carousal--content img {
+  border-radius: 20px;
+  width: 30%;
+  height: 80%;
+  margin: auto 0;
+  border: 0.5px solid #b0afaf;
+}
+.carousalcontainernext .no2 .carousal--content section {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+.carousalcontainernext .no2 .carousal--content section h2 {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  margin: 0;
+  padding: 2%;
+}
+.carousalcontainernext .no2 .carousal--content section ul {
+  margin: 0 auto;
+  list-style-type: square;
+}
+.carousalcontainernext .no2 .carousal--content section ul li {
+  font-weight: 400;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .carousalcontainernext .no2 .carousal--content {
+    flex-direction: column;
+  }
+  .carousalcontainernext .no2 .carousal--content img {
+    width: 100%;
+  }
+  .carousalcontainernext .no2 .carousal--content section h2 {
+    font-size: 16px;
+  }
+  .carousalcontainernext .no2 .carousal--content section ul li {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=ImageSlider2.css.map */

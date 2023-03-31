@@ -1,0 +1,15 @@
+#Moto {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  #Moto {
+    font-size: 35px;
+  }
+}/*# sourceMappingURL=Moto.css.map */

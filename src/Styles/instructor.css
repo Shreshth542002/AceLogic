@@ -1,0 +1,25 @@
+#meet_instructor
+{
+    padding-top: 3.5vh;
+    font-size: 28px;
+    color: black;
+}
+#instructor_container
+{
+    text-align: center;
+    background-image: url('../images/Acelogic_background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+#video_container
+{
+    margin-top: 2%;
+    width: 90vw;
+    margin-left: 3vw;
+    border: 2px solid black;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

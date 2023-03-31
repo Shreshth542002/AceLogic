@@ -1,0 +1,46 @@
+.collapsible--group {
+  border-bottom: 1px solid #aeadad;
+  margin-bottom: 2vh;
+}
+.collapsible--group .content {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+.collapsible--group .content:hover {
+  background-color: #e3e2e2;
+  cursor: pointer;
+}
+.collapsible--group .content.displayed {
+  background-color: #e3e2e2;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.collapsible--group p {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 0.5%;
+}
+.collapsible--group p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+}
+.collapsible--group.selected {
+  box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .collapsible--group .content {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=Faq_Section.css.map */

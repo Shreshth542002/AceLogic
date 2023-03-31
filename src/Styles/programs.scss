@@ -1,0 +1,47 @@
+@import '../Variables/Variables';
+
+.programs {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 10vh;
+
+    #heading_container {
+        background: linear-gradient(0deg, rgba(95, 182, 237, 1) 0%, rgba(246, 246, 246, 1) 100%);
+        // background: linear-gradient(16deg, #5fb6ed 22%, #ffffff 100%);
+        text-align: center;
+        height: 12vh;
+
+        h1 {
+            padding-top: 3.5vh;
+            font-size: 28px;
+            color: black;
+        }
+    }
+    #Line1 {
+        width: 100vw;
+        text-align: center;
+        color: black;
+    }
+
+    .home-page-cards {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80vh;
+    }
+}
+@media (max-width:450px){
+    .programs{
+        height: max-content;
+
+        #heading_container{
+            height: 8vh;
+        }
+        .home-page-cards{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: max-content;
+        }
+    }
+}

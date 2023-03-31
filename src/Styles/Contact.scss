@@ -1,0 +1,100 @@
+@import '../Variables/Variables';
+
+.Contact {
+    font-family: 'Roboto',sans-serif;
+    padding: 1rem;
+    height: 40vh;
+    background-color: black;
+
+    #p{
+        font-size: 16px;
+    }
+
+    p{
+        font-weight: 300;
+        color: white;
+    }
+
+    .contact-links {
+        position: relative;
+        bottom: 50px;
+        left: 1150px;
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        #instagram,
+        #facebook,
+        #linkedin{
+            a{
+                color: blue;
+                    &:hover{
+                        color: orange;
+                    }
+            }
+        }
+    }
+    #contact-child{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        
+        .contact--list1,.contact--list2,.contact--list3 {
+            font-size: 20px;
+            margin-right: 10%;
+
+            li{
+                a{
+                    color: white;
+                    &:hover{
+                        cursor: pointer;
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:450px){
+    .Contact{
+        height: 90vh;
+        width: 85vw;
+        background-color: black;
+
+        #contact-child {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: start;
+        
+            .contact--list1,
+                .contact--list2,
+                .contact--list3 {
+                color: white;
+                font-size: 20px;
+                margin-right: 10%;
+            }
+        }
+
+        .contact-links{
+            position: relative;
+            top: -60px;
+            left: 220px;
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+            align-items: center;
+
+            #instagram,#facebook,#linkedin{
+                a{
+                    text-decoration: none;
+                    color: blue;
+                }
+            }
+        }
+        #p{
+            color: white;
+        }
+    }
+}

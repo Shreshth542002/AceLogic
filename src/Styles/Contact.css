@@ -1,0 +1,84 @@
+.Contact {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  height: 40vh;
+  background-color: black;
+}
+.Contact #p {
+  font-size: 16px;
+}
+.Contact p {
+  font-weight: 300;
+  color: white;
+}
+.Contact .contact-links {
+  position: relative;
+  bottom: 50px;
+  left: 1150px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.Contact .contact-links #instagram a,
+.Contact .contact-links #facebook a,
+.Contact .contact-links #linkedin a {
+  color: blue;
+}
+.Contact .contact-links #instagram a:hover,
+.Contact .contact-links #facebook a:hover,
+.Contact .contact-links #linkedin a:hover {
+  color: orange;
+}
+.Contact #contact-child {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+.Contact #contact-child .contact--list1, .Contact #contact-child .contact--list2, .Contact #contact-child .contact--list3 {
+  font-size: 20px;
+  margin-right: 10%;
+}
+.Contact #contact-child .contact--list1 li a, .Contact #contact-child .contact--list2 li a, .Contact #contact-child .contact--list3 li a {
+  color: white;
+}
+.Contact #contact-child .contact--list1 li a:hover, .Contact #contact-child .contact--list2 li a:hover, .Contact #contact-child .contact--list3 li a:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .Contact {
+    height: 90vh;
+    width: 85vw;
+    background-color: black;
+  }
+  .Contact #contact-child {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+  .Contact #contact-child .contact--list1,
+  .Contact #contact-child .contact--list2,
+  .Contact #contact-child .contact--list3 {
+    color: white;
+    font-size: 20px;
+    margin-right: 10%;
+  }
+  .Contact .contact-links {
+    position: relative;
+    top: -60px;
+    left: 220px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Contact .contact-links #instagram a, .Contact .contact-links #facebook a, .Contact .contact-links #linkedin a {
+    text-decoration: none;
+    color: blue;
+  }
+  .Contact #p {
+    color: white;
+  }
+}/*# sourceMappingURL=Contact.css.map */

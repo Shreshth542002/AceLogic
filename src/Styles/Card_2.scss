@@ -1,0 +1,32 @@
+.card2-container {
+    height: 38vh;
+    border: none;
+    border-radius: 15px;
+    background-color: #fda500;
+    margin: 2%;
+        
+    img {
+        width: 95%;
+        margin: 2.5%;
+        height: 70%;
+        border-radius: 10px;
+        border: 1px solid #9c9494;
+    }
+    h3{
+        margin: 0;
+        margin-top: 1.5%;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Ubuntu',sans-serif;
+    }
+}
+
+@media (min-width:360px) and (max-width:450px){
+    .card2-container{
+        img{
+            width: 90%;
+            margin: 5%;
+        }
+    }
+}

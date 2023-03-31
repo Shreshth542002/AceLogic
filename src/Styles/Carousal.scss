@@ -1,0 +1,40 @@
+.ImageSlider
+{
+    height: 60vh;
+    margin-top: 5vh;
+    #no1 {
+        text-align: center;    
+        #carousal_btn {
+            height: 6vh;
+            margin-right: 0.8%;
+            font-size: 18px;
+            border: 2px solid black;
+            border-bottom: none;
+            color: black;
+            cursor: pointer;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+
+            &:focus
+            {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:450px)
+{
+    .ImageSlider{
+        height: max-content;
+
+        #no1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            #carousal_btn{
+                font-size: 13px;
+            }
+        }
+    }
+}

@@ -1,0 +1,219 @@
+@import '../Variables/Variables';
+
+.popup2
+{
+    height: max-content;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    border: 0.87866px solid hsla(0, 0%, 100%, .4);
+
+    .ContactUs--Details
+    {
+        width: 50%;
+        height: 95%;
+        
+        h1{
+            text-align: center;
+            font-size: 64px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            word-spacing: 0.5rem;
+            letter-spacing: 0px;
+            color: black;
+        }
+        #form-fillup-text
+        {
+            color: black;
+            font-size: 26px;
+        }
+
+        .E-mail
+        {
+            position: relative;
+            margin: 0 auto;
+            width: 50%;
+            height: 15vh;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            box-shadow: 0 68.4941px 49.5115px rgb(0 0 0 / 2%), 
+                        0 40.7051px 26.928px rgb(0 0 0 / 2%), 
+                        0 21.1353px 13.738px rgb(0 0 0 / 2%),
+                        0 8.61069px 6.88855px rgb(0 0 0 / 1%), 
+                        0 1.95698px 3.32686px rgb(0 0 0 / 1%);
+            border-radius: 10px;
+
+            #Email--icon
+            {
+                margin: auto 0;
+                color: black;
+                font-size: 33px;
+                padding-left: 0.5vw;
+            }
+            
+            section
+            {
+                padding-left: 0.5vw;
+                h2{
+                    margin: 0 auto;
+                    font-size: 18px;
+                    font-family: 'Roboto',sans-serif;
+                    font-weight: 700;
+                }
+                p {
+                    margin: 0;
+                    font-size: 20px;
+                    text-align: start;
+                    font-family: 'Poppins',sans-serif;
+                    font-weight: 300;
+                    color: black;
+                    word-wrap: break-word;
+                }
+            }
+        }
+        .Phone
+        {
+            @extend .E-mail;
+            justify-content: start;
+            #phone--icon {
+                // @extend .E-mail, #Email--icon;
+                margin: auto 0;
+                color: #000;
+                padding-left: 0.5vw;
+                font-size: 33px;
+            }
+        }
+        .Address
+        {
+            @extend .E-mail;
+
+            #Address--icon
+            {
+                margin: auto 0;
+                color: #000;
+                padding-left: 0.5vw;
+                font-size: 33px;
+            }
+        }
+    }
+
+    .ContactUs--Form
+    {   
+        background-color: hsla(0, 0%, 92%, .6);
+        position: relative;
+        height: 75vh;
+        width: 40vw;
+        border-radius: 8px;
+        margin-top: 4vh;
+
+        h2{
+            text-align: center;
+        }
+        
+        .Submit
+        {
+            width: 90%;
+            border: none;
+            border-radius: 5px;
+            background-color: #161616;
+            color: white;
+            font-size: 24px;
+            padding: 10px 16px;
+            margin: 5vh 1.9vw;
+        }
+
+        .input--container
+        {
+            width: 39.5vw;
+            #Contact--inputs {
+                width: 80%;
+                margin-left: 10%;
+                background-color: hsla(0, 0%, 96%, .6);
+                color: #383838;
+                font-size: 18px;
+                border: none;
+                border-bottom: 1px solid black;
+                margin-top: 5vh;
+                &:focus {
+                    outline: none;
+                }
+            
+                &:hover {
+                    outline: none;
+                    border-bottom: 3px solid black;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width:360px) and (max-width:415px){
+    .popup2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .ContactUs--Details{
+            width: 100%;
+
+            h1{
+                margin: 0;
+                font-size: 40px;
+            }
+            #form-fillup-text{
+                text-align: center;
+                font-size: 21px;
+            }
+            .E-mail{
+                width: 90%;
+
+                #Email--icon{
+                    font-size: 22px;
+                }
+                section{
+                    padding-left: 2.5vw;
+                }
+            }
+            .Phone{
+                @extend .E-mail;
+
+                #phone--icon{
+                    font-size: 22px;
+                }
+            }
+            .Address{
+                @extend .E-mail;
+
+                #Address--icon{
+                    font-size: 22px;
+                }
+            }
+        }
+        .ContactUs--Form{
+            height: max-content;
+            width: 98%;
+            h2{
+                text-align: center;
+                margin: 2vh 0;
+                font-size: 40px;
+            }
+            .input--container{
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 2vh;
+
+                #Contact--inputs{
+                    width: 80%;
+                    margin-top: 5vh;
+                }
+            }
+            .Submit{
+                margin: 3vh 5%;
+            }
+        }
+    }
+}

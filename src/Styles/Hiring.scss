@@ -1,0 +1,473 @@
+@import '../Variables/Variables';
+
+// Hiring Page 
+
+#perfection--heading{
+    margin-bottom: 10vh;
+}
+
+.hiring_navcontainer{
+    background: linear-gradient(16deg, rgba(95, 182, 237, 1) 22%, rgba(255, 255, 255, 1) 100%);
+    .Hiring__container {
+        height: max-content;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1% 0;
+        .please{
+            height: 40vh;
+            width: 25%;
+            border-radius: 50%;
+            margin-top: 4%;
+        }
+    
+        .right-side-text {
+            width: 40vw;
+            height: 80%;
+            text-align: right;
+    
+            section{
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                h1 {
+                    color: black;
+                    font-family: 'Montserrat', sans-serif;
+                    margin: 0;
+                    #sector {
+                        margin: 0;
+                        font-family: 'Montserrat', sans-serif;
+                        letter-spacing: 2.5px;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+                img {
+                    width: 5vw;
+                    height: 5vh;
+                }
+            }
+    
+            h2 {
+                margin: 0;
+                color: #086198;
+                font-size: 70px;
+            }
+    
+            h3 {
+                margin: 0;
+                color: #fda500;
+                font-size: 40px;
+                margin-bottom: 8%;
+            }
+    
+            p{
+                text-align: right;
+                font-size: 25px;
+                font-family: 'Montserrat', sans-serif;
+            }
+    
+            button {
+                color: white;
+                width: 15vh;
+                background: #fda500;
+                border: none;
+                height: 6vh;
+                border-radius: 5px;
+                font-size: 18px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                letter-spacing: 1px;
+    
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.Hiring--reasons--container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 159, 158, 0.05);
+    // border: $border;
+    height: 90vh;
+    margin-bottom: 10vh;
+
+    .Pathway {
+        width: 45%;
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            margin-left: 3vw;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+
+            li {
+                color: black;
+                font-size: 28px;
+                margin: 1.2rem;
+
+                #bullet--points {
+                    margin-right: 1.5vw;
+                }
+            }
+        }
+    }
+
+    .Hiring__Form {
+        margin-top: 2vh;
+        border-radius: 0.5rem;
+        width: 40vw;
+        height: 85vh;
+        box-shadow: rgb(0 0 0 / 10%) 0px -2px 11px -2px, rgb(0 0 0 / 10%) 0px 10px 15px -3px,
+            rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+        background-color: white;
+
+        .Hire--from--us {
+            display: block;
+            h2 {
+                margin: 1vw 10%;
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.8vw;
+                letter-spacing: 0.5px;
+            }
+
+            .input--container {
+                height: max-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                p {
+                    padding-left: 3.2vw;
+                    font-family: 'Roboto', sans-serif;
+                    color: #000;
+                    font-size: 20px;
+                    letter-spacing: 0.3px;
+                    word-spacing: 1.2px;
+                    margin-bottom: 0;
+                    span {
+                        color: red;
+                    }
+                }
+
+                #hiring-input {
+                    margin: 0 auto;
+                    height: 5.5vh;
+                    border: 0.5px solid rgb(207, 205, 205);
+                    border-radius: 10px;
+                    width: 85%;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 17px;
+                    font-weight: 400;
+                    letter-spacing: 0.3px;
+                    word-spacing: 0.5px;
+
+                    &:hover {
+                        border: 1.5px solid #086198;
+                    }
+                }
+
+            }
+
+            #Hiring--btn {
+                margin: 2vh 7.5%;
+                color: white;
+                width: 85%;
+                background: #fda500;
+                border: none;
+                height: 5vh;
+                border-radius: 5px;
+                letter-spacing: 1px;
+                font-size: 22px;
+
+                &:hover{
+                    box-shadow: 0 1px 16px 0 #fda500;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.Why-AceLogic {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Data--Science {
+        width: 50%;
+        height: 70%;
+        border: 0.5px solid #cfcdcd;
+        border-radius: 12px;
+        margin: 0.5rem;
+        background-color: #edecec;
+
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 500;
+            word-spacing: 8px;
+        }
+        #sec1 {
+            padding: 0 !important;
+            display: grid;
+            margin: 0 auto;
+            grid-template-columns: 50% 50%;
+            list-style-type: none;
+            li {
+                margin: 10px auto;
+                width: 86%;
+                height: 100%;
+                display: flex;
+                justify-content: start;
+
+                i {
+                    width: 13%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: black;
+                }
+                .xyz{
+                    margin: auto 0;
+                    p {
+                        display: flex;
+                        flex-direction: column;
+                        color: #000;
+                        font-size: 20px;
+                        height: max-content;
+                        margin: 1vh;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+    .Web--Development {
+        @extend .Data--Science
+    }
+
+
+.Hiring-facts {
+    margin-bottom: 15vh;
+    margin: 8vh auto;
+    width: 80%;
+    height: 40vh;
+    background-color: #edecec;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+
+    .box {
+        margin: auto 0.5vw;
+        border: none;
+        border-radius: 25px;
+        background-color: white;
+        width: 17%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        i {
+            font-size: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            // position: absolute;
+            // top: 9vh;
+            color: #000;
+            font-size: 26px;
+            font-weight: 100;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+
+            span {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+#bulb {
+    margin-left: 5px;
+}
+
+#perfection--heading {
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#hiring--heading {
+    @extend #perfection--heading;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+
+@media (min-width:360px) and (max-width:450px){
+
+    #perfection--heading{
+        font-size: 22px;
+        margin-top: 7vh;
+        margin-bottom: 3vh;
+    }
+
+    .Hiring__container{
+        flex-direction: column-reverse;
+        padding: 3%;
+        .please{
+            height: 50%;
+            width: 90%;
+        }
+        .right-side-text{
+            // img{
+            //     width: 5vw;
+            //     height: 5vh;
+            // }
+            width: 100%;
+            text-align: left;
+
+            h2{
+                margin: 1%;
+                font-size: 34px;
+            }
+            h3{
+                font-size: 24px;
+            }
+            p{
+                margin: 1%;
+                text-align: left;
+                font-size: 15px;
+            }
+            button{
+                width: 60%;
+            }
+        }
+    }
+    .Why-AceLogic{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+
+        .Data--Science{
+            width: 98%;
+            margin: 1vh auto;
+
+            h2{
+                margin: 1vh auto;
+                font-size: 32px;
+            }
+            #sec1{
+                padding-left: 4px !important;
+                column-gap: 2px;
+                li{
+                    height: 80%;
+                    i{
+                        width: fit-content;
+                    }
+                    width: 100%;
+                    // border: $border;
+                    .xyz{
+                        margin-left: 2px;
+                        p{
+                            margin: 0.1rem;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Hiring-facts{
+        margin: 0 auto;
+        width: 95%;
+        height: 80vh;
+        display: flex;
+        flex-wrap: wrap;
+        .box{
+            width: 45%;
+            height: 32%;
+            margin-right: 1%;
+            i{
+                font-size: 32px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+    }
+    .Hiring--reasons--container{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+
+        .Pathway{
+            width: 98%;
+
+            h2{
+                font-size: 36px;
+            }
+            ul{
+                padding: 0;
+                li{
+                    font-size: 24px;
+                    #bullet--points{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .Hiring__Form{
+            width: 98%;
+            margin: 1vh auto;
+            .Hire--from--us{
+                width: 100%;
+                #become-partner{
+                    margin: 2vh 3%;
+                    font-size: 20px;
+                }
+                .input--container{
+                    width: 100%;
+                    height: max-content;
+
+                    p{
+                        margin-left: 2.5vw;
+                        font-size: 18px;
+                    }
+
+                    #hiring-input{
+                        width: 90%;
+                    }
+                }
+                #Hiring--btn{
+                    margin: 5vh 5%;
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+//Hiring CSS Ends

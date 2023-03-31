@@ -1,0 +1,62 @@
+.carousalcontainer {
+  width: 65%;
+  height: 50vh;
+  margin: 0 auto;
+  background: hsla(0, 0%, 97%, 0.3);
+  border: 0.963415px solid #fff;
+  box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.08), 0 96.3415px 77.0732px rgba(0, 0, 0, 0.03), 0 37.1093px 24.5492px rgba(0, 0, 0, 0.02), 0 19.2683px 12.5244px rgba(0, 0, 0, 0.02), 0 7.85005px 6.28004px rgba(0, 0, 0, 0.01), 0 1.7841px 3.03297px rgba(0, 0, 0, 0.01);
+  -webkit-backdrop-filter: blur(38.9024px);
+          backdrop-filter: blur(38.9024px);
+  border-radius: 10px;
+}
+.carousalcontainer ul {
+  width: 90%;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 !important;
+  row-gap: 3vh;
+  margin: 5% auto;
+}
+.carousalcontainer ul li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.carousalcontainer ul li i {
+  padding: 1.5%;
+  font-size: 40px;
+  background-color: #fda500;
+  color: white;
+  border-radius: 10px;
+}
+.carousalcontainer ul li section #lighter--text {
+  color: grey;
+}
+.carousalcontainer ul li section p {
+  margin: 1vh;
+  margin-left: 1.5vw;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.carousalcontainer img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+  .carousalcontainer {
+    width: 100%;
+    border-radius: 0;
+  }
+  .carousalcontainer ul {
+    width: 100%;
+  }
+  .carousalcontainer ul li i {
+    font-size: 20px;
+  }
+  .carousalcontainer ul li section p {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=ImageSlider.css.map */

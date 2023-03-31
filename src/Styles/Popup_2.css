@@ -1,0 +1,174 @@
+.popup2 {
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+  border: 0.87866px solid hsla(0, 0%, 100%, 0.4);
+}
+.popup2 .ContactUs--Details {
+  width: 50%;
+  height: 95%;
+}
+.popup2 .ContactUs--Details h1 {
+  text-align: center;
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  word-spacing: 0.5rem;
+  letter-spacing: 0px;
+  color: black;
+}
+.popup2 .ContactUs--Details #form-fillup-text {
+  color: black;
+  font-size: 26px;
+}
+.popup2 .ContactUs--Details .E-mail, .popup2 .ContactUs--Details .Address, .popup2 .ContactUs--Details .Phone {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  height: 15vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 0 68.4941px 49.5115px rgba(0, 0, 0, 0.02), 0 40.7051px 26.928px rgba(0, 0, 0, 0.02), 0 21.1353px 13.738px rgba(0, 0, 0, 0.02), 0 8.61069px 6.88855px rgba(0, 0, 0, 0.01), 0 1.95698px 3.32686px rgba(0, 0, 0, 0.01);
+  border-radius: 10px;
+}
+.popup2 .ContactUs--Details .E-mail #Email--icon, .popup2 .ContactUs--Details .Address #Email--icon, .popup2 .ContactUs--Details .Phone #Email--icon {
+  margin: auto 0;
+  color: black;
+  font-size: 33px;
+  padding-left: 0.5vw;
+}
+.popup2 .ContactUs--Details .E-mail section, .popup2 .ContactUs--Details .Address section, .popup2 .ContactUs--Details .Phone section {
+  padding-left: 0.5vw;
+}
+.popup2 .ContactUs--Details .E-mail section h2, .popup2 .ContactUs--Details .Address section h2, .popup2 .ContactUs--Details .Phone section h2 {
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.popup2 .ContactUs--Details .E-mail section p, .popup2 .ContactUs--Details .Address section p, .popup2 .ContactUs--Details .Phone section p {
+  margin: 0;
+  font-size: 20px;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: black;
+  word-wrap: break-word;
+}
+.popup2 .ContactUs--Details .Phone {
+  justify-content: start;
+}
+.popup2 .ContactUs--Details .Phone #phone--icon {
+  margin: auto 0;
+  color: #000;
+  padding-left: 0.5vw;
+  font-size: 33px;
+}
+.popup2 .ContactUs--Details .Address #Address--icon {
+  margin: auto 0;
+  color: #000;
+  padding-left: 0.5vw;
+  font-size: 33px;
+}
+.popup2 .ContactUs--Form {
+  background-color: hsla(0, 0%, 92%, 0.6);
+  position: relative;
+  height: 75vh;
+  width: 40vw;
+  border-radius: 8px;
+  margin-top: 4vh;
+}
+.popup2 .ContactUs--Form h2 {
+  text-align: center;
+}
+.popup2 .ContactUs--Form .Submit {
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  background-color: #161616;
+  color: white;
+  font-size: 24px;
+  padding: 10px 16px;
+  margin: 5vh 1.9vw;
+}
+.popup2 .ContactUs--Form .input--container {
+  width: 39.5vw;
+}
+.popup2 .ContactUs--Form .input--container #Contact--inputs {
+  width: 80%;
+  margin-left: 10%;
+  background-color: hsla(0, 0%, 96%, 0.6);
+  color: #383838;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 5vh;
+}
+.popup2 .ContactUs--Form .input--container #Contact--inputs:focus {
+  outline: none;
+}
+.popup2 .ContactUs--Form .input--container #Contact--inputs:hover {
+  outline: none;
+  border-bottom: 3px solid black;
+}
+
+@media (min-width: 360px) and (max-width: 415px) {
+  .popup2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .popup2 .ContactUs--Details {
+    width: 100%;
+  }
+  .popup2 .ContactUs--Details h1 {
+    margin: 0;
+    font-size: 40px;
+  }
+  .popup2 .ContactUs--Details #form-fillup-text {
+    text-align: center;
+    font-size: 21px;
+  }
+  .popup2 .ContactUs--Details .E-mail, .popup2 .ContactUs--Details .Phone, .popup2 .ContactUs--Details .Address {
+    width: 90%;
+  }
+  .popup2 .ContactUs--Details .E-mail #Email--icon, .popup2 .ContactUs--Details .Phone #Email--icon, .popup2 .ContactUs--Details .Address #Email--icon {
+    font-size: 22px;
+  }
+  .popup2 .ContactUs--Details .E-mail section, .popup2 .ContactUs--Details .Phone section, .popup2 .ContactUs--Details .Address section {
+    padding-left: 2.5vw;
+  }
+  .popup2 .ContactUs--Details .Phone #phone--icon {
+    font-size: 22px;
+  }
+  .popup2 .ContactUs--Details .Address #Address--icon {
+    font-size: 22px;
+  }
+  .popup2 .ContactUs--Form {
+    height: -moz-max-content;
+    height: max-content;
+    width: 98%;
+  }
+  .popup2 .ContactUs--Form h2 {
+    text-align: center;
+    margin: 2vh 0;
+    font-size: 40px;
+  }
+  .popup2 .ContactUs--Form .input--container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+  }
+  .popup2 .ContactUs--Form .input--container #Contact--inputs {
+    width: 80%;
+    margin-top: 5vh;
+  }
+  .popup2 .ContactUs--Form .Submit {
+    margin: 3vh 5%;
+  }
+}/*# sourceMappingURL=Popup_2.css.map */
